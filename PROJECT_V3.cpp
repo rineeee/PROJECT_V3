@@ -177,7 +177,7 @@ void mouseCallback(ObjectID object, int x, int y, MouseAction action) {
 		pickObject(driver);
 	}
 	else if (object == safe1) {
-		showKeypad("351", safe1);
+		showKeypad("RGY351", safe1);
 	}
 	else if (object == safe2) {
 		showKeypad("GETOUT", safe2);
